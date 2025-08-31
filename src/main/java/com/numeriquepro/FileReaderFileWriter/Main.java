@@ -11,7 +11,7 @@ public class Main {
                 System.out.println((char) letters);
                 letters = fr.read();
             }
-            // fr.close();  <-- inutile car try-with-resources
+
             System.out.println();
         } catch (IOException e) {
             System.out.println(e.getMessage());
